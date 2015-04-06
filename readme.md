@@ -4,6 +4,12 @@ Laravel 5 User / Role Commands
 
 Requires models for App\User and App\Role, preferably used with Zizaco/entrust
 
+# How To Install
+
+ - Add to your providers:
+
+'Kilrizzy\UserCommands\UserCommandsServiceProvider',
+
 # Commands
 
 Creates 2 artisan commands:
