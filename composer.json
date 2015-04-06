@@ -1,0 +1,22 @@
+{
+  "name": "kilrizzy/user-commands",
+  "description": "L5 Commands for Generating Users and Roles",
+  "keywords": ["laravel", "commands"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeff Kilroy",
+      "email": "jeffkilroy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Kilrizzy\\UserCommands\\": "src/"
+    }
+  }
+}
